@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: purple;
+    color: white;
+}
+.container{
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+h1{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: tomato;
+    padding: 3rem;
+}
+#task-input{
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+
+}
+#addTask{
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+#delete-checked{
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+    background-color: rgb(245, 3, 3);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#addTask:hover, #delete-checked:hover{
+    font-size: 1.6rem;
+    box-shadow: 10px 10px 8px rgb(22, 5, 5);
+    transition: all 1s ease-out;
+    border-bottom: 2px solid salmon;
+}
